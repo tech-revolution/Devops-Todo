@@ -12,3 +12,6 @@ go to todo_project folder and run command ** python manage.py runserver ** and g
 
 ************ Step 5 ************
 Create docker file for creating image of this django app. and Now run container and test the app
+like this 
+
+docker run -d -p 80:8000 --name todo-container todo-app // todo-app is my image name 
