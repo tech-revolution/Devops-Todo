@@ -15,3 +15,6 @@ Create docker file for creating image of this django app. and Now run container 
 like this 
 
 docker run -d -p 80:8000 --name todo-container todo-app // todo-app is my image name 
+
+************ Step 6 ************
+Push the image on docker hub and again pull then run conatainer 
